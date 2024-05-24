@@ -10,10 +10,21 @@
     }
 }
 
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
 div {
     background-color: orange;
-    width: 100px;
-    height: 400px;
     padding: 50px;
     margin: 50px;
 }
