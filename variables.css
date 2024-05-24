@@ -14,14 +14,35 @@ h1 {
   color:#54a0ff;
 }
 
+
+.topnav {
+  background-color: #2f3640;
+  overflow: hidden;
+}
+
+.topnav a {
+  height: 50px;
+  float: left;
+  color: #c8d6e5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #54a0ff;
+  color: black;
+}
+
 .container {
+  height: calc(100vh - 50px);
   width: 100%;
-  min-height: 100vh;
   padding: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #222f3e;
+  background: #353b48;
 }
 
 .search-bar {
