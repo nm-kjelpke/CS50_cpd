@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: blue;
+  background: #222f3e;
 }
 
 .search-bar {
@@ -39,7 +39,7 @@
 .search-bar input[type="submit"]{
   width: 80%;
   max-width: 350;
-  background: lightgrey;
+  background: #2e86de;
   flex: 1;
   border: 0;
   outline: none;
@@ -50,5 +50,5 @@
 
 ::placeholder{
   font-size: 15px;
-  color: #cac7ff;
+  color: #c8d6e5;
 }
