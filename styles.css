@@ -11,3 +11,12 @@ h1 {
     font-size: 28px;
     font-weight: bold;
 }
+
+button {
+    width: 100px;
+    background-color: green;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
