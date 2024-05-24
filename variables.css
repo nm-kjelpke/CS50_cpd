@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: blue;
 }
 
 #search-bar {
@@ -23,21 +24,6 @@
   align-items: center;
   border-radius: 60px;
   padding: 10px 20px;
-}
-
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-button {
-  width: 100px;
-  background-color: green;
-}
-
-button:hover {
-  background-color: lightgreen;
 }
 
 /*# sourceMappingURL=variables.css.map */
