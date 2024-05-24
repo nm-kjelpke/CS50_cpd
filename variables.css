@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: blue;
 }
 
 .search-bar {
@@ -12,6 +13,7 @@
   max-width: 700px;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
+  flex-direction: column;
   align-items: center;
   border-radius: 60px;
   padding: 10px 20px;
