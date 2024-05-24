@@ -23,10 +23,32 @@
   outline: none;
   border-radius: 60px;
   padding: 10px 20px;
-  font-size: 20px;
-  color: #cac7ff;
+}
+
+.search-bar input[type="text"]{
+  width: 200%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  flex: 1;
+  border: 0;
+  outline: none;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.search-bar input[type="submit"]{
+  width: 80%;
+  max-width: 350;
+  background: lightgrey;
+  flex: 1;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
 }
 
 ::placeholder{
+  font-size: 15px;
   color: #cac7ff;
 }
